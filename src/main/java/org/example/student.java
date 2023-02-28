@@ -3,7 +3,7 @@ import java.util.logging.*;
 import java.util.*;
 
 class Student {
-    static Logger l=Logger.getLogger("welcome");
+    static Logger l=Logger.getLogger("student.class");
     String sname;
     String sgrade;
     double sgpa;
@@ -35,7 +35,7 @@ class Student {
     }
 
     public static void main(String[] args) {
-        Logger l=Logger.getLogger("welcome");
+        Logger l=Logger.getLogger("student.class");
         Scanner s = new Scanner(System.in);
         String grade;
         l.info("Enter the student name:");
